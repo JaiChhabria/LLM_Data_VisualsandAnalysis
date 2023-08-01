@@ -7,3 +7,4 @@ pinecone-client
 plotly
 matplotlib
 seaborn
+tabulate
