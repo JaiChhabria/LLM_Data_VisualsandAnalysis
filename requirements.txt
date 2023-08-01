@@ -6,3 +6,5 @@ python-dotenv
 pinecone-client
 plotly
 matplotlib
+seaborn
+os
