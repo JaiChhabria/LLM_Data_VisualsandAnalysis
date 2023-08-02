@@ -1,0 +1,17 @@
+jobs:
+  build:
+    steps:
+      - name: Set up environment
+        run: |
+          export OPENAI_API_KEY="${{ secrets.OPENAI_API_KEY }}"
+          # Other setup steps
+
+      - name: Run Streamlit app
+        run: |
+          streamlit run app.py
+
+
+
+
+
+
