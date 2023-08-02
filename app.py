@@ -8,7 +8,7 @@ from langchain.llms import OpenAI
 from dotenv import load_dotenv
 
 # Set the matplotlib backend to a non-interactive one
-matplotlib.use("agg")
+#matplotlib.use("agg")
 
 def query_agent(df, query):
     # Use the environment variable for OpenAI API key
