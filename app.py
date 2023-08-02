@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 def query_agent(df, query):
     # Use the environment variable for OpenAI API key
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
 
     llm = OpenAI(openai_api_key=openai_api_key)
 
