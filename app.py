@@ -5,6 +5,7 @@ import seaborn as sns
 import os
 from langchain.agents import create_pandas_dataframe_agent
 from langchain.llms import OpenAI
+from dotenv import load_dotenv
 
 # Set the matplotlib backend to a non-interactive one
 matplotlib.use("agg")
